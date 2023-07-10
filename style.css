@@ -115,3 +115,54 @@ body{
     text-align: center;
     width: 50%;
 }
+
+/* This is instagram section */
+.instagram-image{
+    width: 265px;
+    height: 270px;
+
+}
+.instagram-boxes{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 40px;
+}
+.instagram-upper{
+    text-align: center;
+    margin-top: 100px;
+}
+.instagram-title{
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+}
+.instagram-container{
+    height: 100vh;
+    background-color: #FFFFFF;
+}
+.insta-ban{
+    border: 1px solid red;
+    height: 250px;
+    margin-top: 60px;
+    background-image: url("Flower Asset/Rectangle\ 9.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    padding-top: 30px;
+}
+.insta-info{
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+.insta-description{
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+}
+.in{
+    padding: 15px;
+    width: 300px;
+}
