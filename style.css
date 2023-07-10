@@ -2,3 +2,53 @@
     margin: 0;
     padding: 0;
 }
+/* This is shared Part */
+body{
+    font-family: 'Lato', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+}
+.common-width{
+    margin: 0px 240px;
+}
+.description{
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    margin: 32px 0px;
+}
+.common-button{
+    padding: 20px 43px;
+    border-radius: 8px;
+    background: #E55473;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 700;
+    border: none;
+}
+
+
+/* This is homepage part */
+.home-title{
+    color: #272727;
+    font-size: 60px;
+    font-weight: 800;
+}
+.home-page-container{
+    display: flex;
+    justify-content: space-around;
+    background: rgba(229, 84, 115, 0.10);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    align-items: center;
+    height: 100vh;
+    padding-left: 240px;
+    border: 1px solid blue;
+}
+.home-left-section{
+    width: 50%;
+}
+.home-image{
+    margin-top: 20px;
+    padding-right: 130px;
+}
