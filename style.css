@@ -43,7 +43,6 @@ body{
     align-items: center;
     height: 100vh;
     padding-left: 240px;
-    border: 1px solid blue;
 }
 .home-left-section{
     width: 50%;
@@ -51,4 +50,54 @@ body{
 .home-image{
     margin-top: 20px;
     padding-right: 130px;
+}
+/* This is featured flower section */
+.feature-head{
+    text-align: center;
+    margin-top: 90px;
+}
+.feature-title{
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+}
+.feature-container{
+    height: 100vh;
+}
+.feature-image{
+    width:200px;
+    height: 250px;
+    margin: 68px 38px 38px 38px;
+}
+.image-title{
+    color: #272727;
+    font-size: 16px;
+    font-weight: 700;
+    text-decoration-line: underline;
+    margin-top: -30px;
+}
+.feature-body{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    margin-top: 40px;
+}
+.box{
+    width: 30%;
+    height: 320px;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+}
+.feature-foot{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 150px;
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+    margin: 100px 0px;
+}
+.foot1{
+    text-align: center;
 }
