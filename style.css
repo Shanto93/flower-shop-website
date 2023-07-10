@@ -101,3 +101,17 @@ body{
 .foot1{
     text-align: center;
 }
+
+/* this is hot deal section */
+.hot-deal-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 500px;
+    border-radius: 8px;
+    background: rgba(229, 84, 115, 0.05);
+}
+.hot-left{
+    text-align: center;
+    width: 50%;
+}
