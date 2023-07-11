@@ -1,22 +1,26 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
+
 /* This is shared Part */
-body{
+body {
     font-family: 'Lato', sans-serif;
     font-family: 'Open Sans', sans-serif;
 }
-.common-width{
+
+.common-width {
     margin: 0px 240px;
 }
-.description{
+
+.description {
     color: rgba(39, 39, 39, 0.60);
     font-size: 18px;
     font-weight: 400;
     margin: 32px 0px;
 }
-.common-button{
+
+.common-button {
     padding: 20px 43px;
     border-radius: 8px;
     background: #E55473;
@@ -28,12 +32,13 @@ body{
 
 
 /* This is homepage part */
-.home-title{
+.home-title {
     color: #272727;
     font-size: 60px;
     font-weight: 800;
 }
-.home-page-container{
+
+.home-page-container {
     display: flex;
     justify-content: space-around;
     background: rgba(229, 84, 115, 0.10);
@@ -44,52 +49,65 @@ body{
     height: 100vh;
     padding-left: 240px;
 }
-.home-left-section{
+.img-home{
+    padding: 30px 0px 0px 0px;
+    height: 700px;
+}
+.home-left-section {
     width: 50%;
 }
-.home-image{
+
+.home-image {
     margin-top: 20px;
     padding-right: 130px;
 }
+
 /* This is featured flower section */
-.feature-head{
+.feature-head {
     text-align: center;
     margin-top: 90px;
 }
-.feature-title{
+
+.feature-title {
     color: #272727;
     font-size: 40px;
     font-weight: 800;
 }
-.feature-container{
+
+.feature-container {
     height: 100vh;
 }
-.feature-image{
-    width:200px;
+
+.feature-image {
+    width: 200px;
     height: 250px;
     margin: 68px 38px 38px 38px;
 }
-.image-title{
+
+.image-title {
     color: #272727;
     font-size: 16px;
     font-weight: 700;
     text-decoration-line: underline;
     margin-top: -30px;
 }
-.feature-body{
+
+.feature-body {
     display: flex;
     align-items: center;
     justify-content: space-between;
     text-align: center;
     margin-top: 40px;
 }
-.box{
+
+.box {
     width: 30%;
     height: 320px;
     border-radius: 300px 300px 0px 0px;
     background: rgba(167, 33, 98, 0.15);
 }
-.feature-foot{
+
+.feature-foot {
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -98,56 +116,65 @@ body{
     background: rgba(39, 39, 39, 0.05);
     margin: 100px 0px;
 }
-.foot1{
+
+.foot1 {
     text-align: center;
 }
 
 /* this is hot deal section */
-.hot-deal-container{
+.hot-deal-container {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
     height: 500px;
     border-radius: 8px;
     background: rgba(229, 84, 115, 0.05);
+    margin-top: 100px;
 }
-.hot-left{
+
+.hot-left {
     text-align: center;
     width: 50%;
 }
 
 /* This is instagram section */
-.instagram-image{
+.instagram-image {
     width: 265px;
     height: 270px;
 
 }
-.instagram-boxes{
+
+.instagram-boxes {
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin-top: 40px;
 }
-.instagram-upper{
+
+.instagram-upper {
     text-align: center;
     margin-top: 100px;
 }
-.instagram-title{
+
+.instagram-title {
     color: #272727;
     font-size: 40px;
     font-weight: 800;
 }
-.insta-ban-title{
+
+.insta-ban-title {
     color: #272727;
     font-size: 30px;
     font-weight: 800;
     margin-bottom: 7px;
 }
-.instagram-container{
+
+.instagram-container {
     height: 100vh;
     background-color: #FFFFFF;
 }
-.insta-ban{
+
+.insta-ban {
     height: 220px;
     margin-top: 40px;
     background-image: url("Flower Asset/Rectangle\ 9.png");
@@ -157,24 +184,28 @@ body{
     text-align: center;
     padding-top: 50px;
 }
-.insta-info{
+
+.insta-info {
     display: flex;
     align-items: center;
     text-align: center;
     padding-left: 25%;
 }
-.insta-description{
+
+.insta-description {
     color: rgba(39, 39, 39, 0.60);
     font-size: 18px;
     font-weight: 400;
     margin-bottom: 30px;
 }
-.in{
+
+.in {
     padding: 20px;
     width: 450px;
     margin-right: 10px;
 }
-.btn{
+
+.btn {
     padding: 15px;
     border-radius: 8px;
     background: #E55473;
@@ -186,7 +217,7 @@ body{
 
 
 /* This is footer section */
-.footer-container{
+.footer-container {
     display: flex;
     align-items: center;
     text-align: center;
@@ -194,18 +225,90 @@ body{
     color: white;
     height: 400px;
     padding-left: 32.5%;
-    margin-top: 50px;
+    /* margin-top: 50px; */
 }
-.foot-des{
+
+.foot-des {
     color: white;
     padding: 30px;
 }
-.hr-part{
+
+.hr-part {
     color: rgba(255, 255, 255, 0.40);
     font-size: 16px;
     font-weight: 400;
     padding-top: 50px;
 }
-.span-class{
+
+.span-class {
     color: red;
+}
+
+/* What people say about us section */
+.random {
+    height: 80px;
+    width: 120px;
+    border-radius: 50px;
+    border-radius: 50px;
+}
+
+fieldset {
+    height: 350px;
+    width: 390px;
+    background-color: white;
+    border-radius: 10px;
+    border: none;
+    margin: 20px 0px;
+}
+
+.review-container {
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    justify-content: space-around;
+    /* background-color: #111010; */
+    background-image: url(background93.avif);
+    color: white;
+    padding: 0px 70px;
+}
+
+.review-head {
+    margin-top: 50px;
+    font-weight: 800;
+    font-size: 50px;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.my-button {
+    border-radius: 8px;
+    background: #E55473;
+    padding: 15px 30px;
+    color: white;
+    font-weight: 800;
+    border: none;
+    margin-top: 70px;
+    margin-bottom: 30px;
+
+}
+
+.review-container {
+    margin-top: 50px;
+
+}
+
+.review {
+    color: black;
+    padding: 30px;
+}
+
+.name {
+    padding-left: 30px;
+    color: black;
+    font-weight: bold;
+
+}
+
+.review-description {
+    color: white;
 }
